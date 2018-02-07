@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 module.exports = () => {
-	mongoose.connect('mongodb://admin:RjF81xu8JJCR@localhost:27017', {
+	mongoose.connect('mongodb://localhost:27017', {
 		useMongoClient: true,
 		connectTimeoutMS: 5000
 	});
